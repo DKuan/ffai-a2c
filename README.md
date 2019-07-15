@@ -6,6 +6,8 @@ The code is structured in a way, that runs parallel environments of Blood Bowl u
 
 ## Results
 
+![Results](https://github.com/njustesen/ffai-a2c/blob/master/results.png)
+
 Currently, preliminary results have been acquired on the three smallest/easiest Gym environments in FFAI, which has a board of 4 × 3, 12 × 5, and 16 × 9 squares with 1, 3, and 5 fielded players on each team, respectively. A more comprehensive description of the experiments can be found in the paper: Blood Bowl: A New Board Game Challenge and Competition for AI (https://njustesen.files.wordpress.com/2019/07/justesen2019blood.pdf)
 
 ## Rewards
