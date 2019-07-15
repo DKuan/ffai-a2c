@@ -11,11 +11,13 @@ The code is structured in a way, that runs parallel environments of Blood Bowl u
 Currently, preliminary results have been acquired on the three smallest/easiest Gym environments in FFAI, which has a board of 4 × 3, 12 × 5, and 16 × 9 squares with 1, 3, and 5 fielded players on each team, respectively. A more comprehensive description of the experiments can be found in the paper: Blood Bowl: A New Board Game Challenge and Competition for AI (https://njustesen.files.wordpress.com/2019/07/justesen2019blood.pdf)
 
 ## Rewards
+
 The results mentioned above, uses a different reward function and can be altered from ``vec_env.py``.
 
 ## Reproducibility 
 
 **Before getting started:**
+
 * We recommend to use Anaconda with python3.6 or newer.
 * Install Pytorch installed (https://pytorch.org/ )
 * Install matplotlib
@@ -25,5 +27,6 @@ The results mentioned above, uses a different reward function and can be altered
 
 In order to switch between board sizes, change the variable board_size in ``arguments.py``
 
-**Run**
+**Run:**
+
 Simply run the main.py script.
