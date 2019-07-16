@@ -12,7 +12,7 @@ Currently, preliminary results have been acquired on the three smallest/easiest 
 
 ## Rewards
 
-The results mentioned above, uses a different reward function and can be altered from ``vec_env.py``.
+The results mentioned above, used a reward function that can be altered from ``vec_env.py``.
 
 ## Reproducibility 
 
@@ -29,4 +29,4 @@ In order to switch between board sizes, change the variable board_size in ``argu
 
 **Run:**
 
-Simply run the main.py script.
+Simply run the a2c/main.py script.
